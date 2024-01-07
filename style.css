@@ -87,7 +87,7 @@ div{
     
 }
 .box1{
-    background-color: #007BFF;
+    background-color: #4d9cf1;
     background-image: url(ka.jpg);
     background-size: cover;
     text-align: center;
@@ -101,14 +101,14 @@ div{
 
 }
 .box2{
-    background-color: #007BFF;
+    background-color: #4d9cf1;
     
     padding-top: 20px;
     border-radius: 20px;
    
 }
 .box3{
-    background-color: #007BFF;
+    background-color: #4d9cf1;
     text-decoration: none;
     padding-top: 20px;
     border-radius: 20px;
