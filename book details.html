@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+</head>
+ 
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .login-container {
+            width: 320px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: transparent;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 100px;
+        }
+        h2{
+            text-align: center;
+            
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+        }        
+        .form-group input 
+        {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-button {
+            width: 100%;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        #username{
+            width: 300px;
+        }
+        #password{
+            width: 300px;
+        }
+    </style>
+<body>
+    
+   <label>
+    <div class="login-container">
+        <div class="log"></div>
+        <h2>Book Details</h2>
+        <form action="conformation.html" method="get">
+            <div class="form-group">
+                <label for="Name Of Book">Name Of Book:</label>
+              <input type="text" id="username" name="name of book" required>
+            </div>
+            <div class="form-group">
+                <label for="subject:">Subject:</label>
+                 <input type="subject"id="password" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="Course Year">Course Year:</label>
+              <input type="text" id="username" name="Course Year" required>
+            </div>
+            <div class="form-group">
+                <label for="author">Author:</label>
+              <input type="text" id="username" name="author:" required>
+            </div>
+            <div class="form-group">
+                <label for="publisher">Publisher:</label>
+              <input type="text" id="username" name="publisher" required>
+            </div>
+            <div class="form-group">
+                <label for="time period">Time Period:</label>
+              <input type="text" id="username" name="time period" required>
+            </div>
+            <button type="submit"class="login-button">Submit</button>
+        </form>
+    </div>
+   </label>
+
+</body>
+</html>
