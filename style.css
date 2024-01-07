@@ -66,6 +66,7 @@ h1{
     text-align: center;
     background-image: url(img_3.jpg);
     background-size: cover;
+    background-color: #f2f2f2;
 }
 div{
     height: 100px;
@@ -86,7 +87,7 @@ div{
     
 }
 .box1{
-    background-color: rgba(190, 105, 34, 0.5);
+    background-color: #007BFF;
     background-image: url(ka.jpg);
     background-size: cover;
     text-align: center;
@@ -100,14 +101,14 @@ div{
 
 }
 .box2{
-    background-color:rgba(190, 105, 34, 0.5);
+    background-color: #007BFF;
     
     padding-top: 20px;
     border-radius: 20px;
    
 }
 .box3{
-    background-color: rgba(190, 105, 34, 0.5);
+    background-color: #007BFF;
     text-decoration: none;
     padding-top: 20px;
     border-radius: 20px;
@@ -120,7 +121,7 @@ div{
 #leon{
     font-family: Arial, sans-serif;
     font-size: 50px;
-    color: yellowgreen;
+    color: black;
     text-align: center;
     margin-left: 90px;
     
